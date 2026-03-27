@@ -4,6 +4,7 @@ on:
   schedule:
     # 每天北京时间 8:00 运行（UTC 时间 0:00）
     - cron: '0 12 * * 5'
+  workflow_dispatch:   # 添加此行  
 
 jobs:
   run-script:
